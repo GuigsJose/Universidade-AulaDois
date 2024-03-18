@@ -4,13 +4,13 @@ public class Estudante {
     public int idade{get;set;}
 
     public List<Curso> cursos = new List<Curso>();
-    public Turma turmas {get;set;}
+    public List<Turma> turmas = new List<Turma>();
     public string exibirInformacoes(){
         return "";
     }
 
     public void Matricular(Curso curso, Turma turma){
         cursos.Add(curso);
-        this.turmas = turma;
+        turmas.Add(turma);
     }
 }
