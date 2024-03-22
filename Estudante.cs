@@ -1,7 +1,9 @@
+// ./Estudante
+
 public class Estudante {
-    public string nome{get;set;}
-    public string matricula{get;set;}
-    public int idade{get;set;}
+    public string Nome{get;set;}
+    public string Matricula{get;set;}
+    public int Idade{get;set;}
 
     public List<Curso> cursos = new List<Curso>();
     public List<Turma> turmas = new List<Turma>();

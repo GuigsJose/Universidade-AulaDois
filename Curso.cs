@@ -11,7 +11,7 @@ public class Curso{
         return "";
     }
     // método para adicionar turmas a classe Turma
-    public void adicionarTurmas(Turma turma)
+    public void adicionarTurma(Turma turma)
     {
         this.Turmas.Add(turma);
     }

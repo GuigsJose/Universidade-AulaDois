@@ -12,3 +12,4 @@ C:\Users\guize\Desktop\Programas\aula3\aula2\obj\Debug\net8.0\refint\aula2.dll
 C:\Users\guize\Desktop\Programas\aula3\aula2\obj\Debug\net8.0\aula2.pdb
 C:\Users\guize\Desktop\Programas\aula3\aula2\obj\Debug\net8.0\aula2.genruntimeconfig.cache
 C:\Users\guize\Desktop\Programas\aula3\aula2\obj\Debug\net8.0\ref\aula2.dll
+C:\Users\guize\Desktop\Programas\aula3\aula2\obj\Debug\net8.0\aula2.sourcelink.json
