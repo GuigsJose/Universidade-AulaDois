@@ -4,6 +4,12 @@ public class Universidade{
     public string Localizacao{get;set;}
     public int AnoFundacao{get;set;}
 
+    public Universidade(string Nome, string Localizacao, int AnoFundacao)
+    {
+            this.Nome = Nome;
+            this.Localizacao = Localizacao;
+            this.AnoFundacao = AnoFundacao;
+    }
     //esta propriedade requer refatoração
     public List<Curso> Cursos = new List<Curso>();
 
