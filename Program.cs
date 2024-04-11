@@ -41,10 +41,24 @@
 //     foreach(var T in Curso.Turmas){
 //         Console.WriteLine("      "+ T.AnoFormacao);
 //     }
-// }
+// // }
 
-professor Professor = new professor("999");
-Console.WriteLine(Professor.getNome());
-Professor.setNome("vasco");
-Professor = new professor("2025","guilherme");
-Console.WriteLine(Professor.getNome());
+// professor Professor = new professor("999");
+// Console.WriteLine(Professor.getNome());
+// Professor.setNome("vasco");
+// Professor = new professor("2025","guilherme");
+// Console.WriteLine(Professor.getNome());
+
+
+ave Tucano = new ave();
+Tucano.Porte = "médio";
+Tucano.Alimentacao = "onivoro";
+Tucano.tipoPlumagem = "colorida";
+Console.WriteLine(Tucano.tipoPlumagem);
+
+mamifero Elefante = new mamifero();
+Elefante.Porte = "Grande";
+
+Console.WriteLine(Elefante.somEmitido());
+Console.WriteLine(Tucano.somEmitido());
+
